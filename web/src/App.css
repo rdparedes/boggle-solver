@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.letter {
+  width: 1em;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.row > * {
+  margin-right: 4em;
+}
+
+.row > *:last-of-type {
+  margin-right: 0;
+}
+
+.board {
+  display: flex;
+  margin-left: 10em;
+  flex-direction: column;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccaacc;
+  height: 15em;
+  width: 20em;
+  overflow: hidden;
+}
+
+.results-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: scroll;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
