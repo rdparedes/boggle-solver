@@ -1,1 +1,1 @@
-web: ./build.sh
+web: python ./index.py
